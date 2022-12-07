@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/7ed14b1831.js"></script>
+    <script src="script.js" defer></script>
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <div id="container">
+      <!--Início da página-->
+      <div id="startingPage">
+        <h2>Jogo da Velha</h2>
+        <div id="line"></div>
+        <h4>SELECIONE QUAL VOCÊ QUER SER</h4>
+        <div id="button">
+          <button id="playerX" class="choose">Jogador ( X )</button>
+          <button id="playerO" class="choose">Jogador ( O )</button>
+        </div>
+      </div>
+      <!--Main Page-->
+      <div id="mainPage">
+        <div id="headerBtns">
+          <button id="">X Sua vez!</button>
+          <button id="O_Turn">O Sua vez!</button>
+          <div id="showChange"></div>
+        </div>
+        <div id="gameBoard">
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+          <div class="boxes"></div>
+        </div>
+      </div>
+      <!--Página do Vencedor-->
+      <div id="winner">
+        <h2 id="winnerName">Jogador X Venceu o Jogo!</h2>
+        <div id="button">
+          <button id="quit">Jogar de Novo</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
