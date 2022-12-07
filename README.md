@@ -1,2 +1,9 @@
-# jogo_da_velha
-Jogo da Velha usando HTML, CSS e JavaScript.
+# Jogo da Velha
+
+### Stacks utilizadas no projeto: 👨‍💻
+
+- CSS
+- HTML
+- JAVASCRIPT
+
+> Status: Concluído
